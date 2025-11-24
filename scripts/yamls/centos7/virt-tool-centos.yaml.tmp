@@ -53,6 +53,8 @@ spec:
             mountPath: /root/.bashrc
           - name: usrlib
             mountPath: /usr/lib
+          - name: usrlib64
+            mountPath: /usr/lib64
           - name: localbin
             mountPath: /usr/local/bin
           - name: ssh
@@ -91,6 +93,8 @@ spec:
             mountPath: /root/.bashrc
           - name: usrlib
             mountPath: /usr/lib
+          - name: usrlib64
+            mountPath: /usr/lib64
           - name: localbin
             mountPath: /usr/local/bin
           - name: ssh
@@ -129,6 +133,8 @@ spec:
             mountPath: /root/.bashrc
           - name: usrlib
             mountPath: /usr/lib
+          - name: usrlib64
+            mountPath: /usr/lib64
           - name: localbin
             mountPath: /usr/local/bin
           - name: ssh
@@ -167,6 +173,8 @@ spec:
             mountPath: /root/.bashrc
           - name: usrlib
             mountPath: /usr/lib
+          - name: usrlib64
+            mountPath: /usr/lib64
           - name: localbin
             mountPath: /usr/local/bin
           - name: ssh
@@ -202,6 +210,9 @@ spec:
         - name: usrlib
           hostPath:
             path: /usr/lib
+        - name: usrlib64
+          hostPath:
+            path: /usr/lib64
         - name: localbin
           hostPath:
             path: /usr/local/bin
